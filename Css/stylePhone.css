@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: lightgrey;
+}
+
+.row1 {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+.container {
+    margin: 0 150px;
+    display: flex;
+}
+
+.box-control {
+    width: 100%;
+}
+
+.box-control .logo {
+    width: 33%;
+    float: left;
+    margin: 10px 0;
+}
+
+.box-control .formbox {
+    width: 33%;
+    float: left;
+    margin: 10px 0;
+}
+
+.box-control .notification {
+    width: 34%;
+    height: 30px;
+    float: left;
+    margin: 10px 0;
+    text-align: right;
+}
+
+.logo img {
+    width: auto;
+    height: auto;
+}
+
+.formbox input[type=text] {
+    width: 260px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 0px;
+}
+
+.formbox input[type=submit] {
+    width: 80px;
+    padding: 10px;
+    margin-left: -5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0px;
+    background-color: red;
+    color: white;
+}
+
+.notification a {
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.notification a:hover {
+    text-decoration: underline;
+}
+
+.notification span {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#main-menu {
+    width: 100%;
+    height: 40px;
+    background-color: red;
+}
+
+#main-menu a {
+    background-color: red;
+    display: block;
+    float: left;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#main-menu a:hover {
+    text-decoration: underline;
+}
+
+#main-body {
+    background-color: lightgrey;
+}
+
+.container2 {
+    margin: 0 150px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    /* background-color: DodgerBlue; */
+}
+
+.flex-container #section-box1 {
+    /* background-color: #f1f1f1; */
+    width: 65%;
+    margin: 10px 10px 10px 0;
+}
+
+.flex-container #section-box2 {
+    width: 35%;
+    margin: 10px 0 10px 10px;
+}
+
+#section-box1 img {
+    width: 100%;
+    height: auto;
+}
+
+#section-box1 .slide {
+    margin-bottom: 10px;
+}
+
+#section-box1 .product {
+    width: 260px;
+    height: 300px;
+}
+
+.product p span {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+
+/* aside for advertisement */
+
+#section-box2 aside {
+    margin-bottom: 7px;
+}
+
+#section-box2 img {
+    width: 100%;
+    height: auto;
+}
+
+.feature {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+
+.feature .product {
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    margin: 5px;
+}
+
+#footer {
+    background-color: black;
+}
+
+#footer .main-footer {
+    background-color: white;
+}
+
+.footer-info {
+    /* background-color: green; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.footer-info>.describe {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    /* background-color: red; */
+}
+
+.describe img {
+    width: 100%;
+    height: auto;
+}
+
+.footer-info>.info {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 10px 10px;
+    /* background-color: orange; */
+}
+
+#footer h3 {
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.footer-info>.service {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    /* background-color: red; */
+}
+
+.footer-info>.address {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    /* background-color: orange; */
+}
+
+#footer p {
+    color: white;
+    padding: 10px 0;
+}
+
+#footer .main-footer p {
+    color: black;
+}

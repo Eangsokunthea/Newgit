@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    background-color: blue;
+}
+
+p {
+    margin-left: 50px;
+    background-color: red;
+}
